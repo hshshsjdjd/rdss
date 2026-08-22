@@ -334,6 +334,6 @@ jobs:
             fi
 
             echo "[$(date -Is)] RDP active at $TAILSCALE_IP:3389"
-            sleep 60
+            sleep 600
           done
           
